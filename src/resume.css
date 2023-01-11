@@ -1,0 +1,33 @@
+.info {
+    background-color:cadetblue;
+    padding: 10px;
+    height: 150px;
+}
+.name {
+    float: left;
+    color: cyan;
+    font-size: 30px;
+}
+.address {
+    float: right;
+    color: white;
+}
+a {
+    color: white;
+}
+.detail {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+.tech {
+    padding-left: 15px;
+    background-color: lightslategray;
+}
+.about {
+    margin-left: 20px;
+    padding-left: 10px;
+    background-image: url("paper.gif");
+}
+hr {
+    height: 5px;
+}
